@@ -1,0 +1,15 @@
+DESCRIPTION OF THE GRAPH
+There is a total of 2 graphs. The first graph gives a broad idea of the whole data set. To someone who is about to go to war and is really interested in what is the most effective antibiotic that they might want to take (effective in the sense that it cures the most diseases with the smallest MIC (on average)) with them.
+
+The second graph allows the viewer to get a classification of the most effective antibiotic according to the Gram Staining of the disease. In here the viewer finds out that we can classify disease into two buckets (positive and negative) and according to each bucket it seems that the most effective antibiotic changes as well. Hence, knowing the possible disease staining might allow then to make a better choice in antibiotic selection. 
+
+Additionally, the viewer can as well check out the most effective antibiotic for each specific disease through the aid of bar graph, disease name, and color coding for each antibiotic. 
+
+RATIONALE BEHIND THE STRUCTURE
+The hierarchy of importance goes as follows: order, length, and finally color.  In my graphs I’ve been able to stay as close as possible to these useful pointers. 
+
+The first thing has been order. In each graph there is a specific ranking/order of each antibiotic/disease so that the user is able to get this sense of better to worst, or worst to better. The next point has been length, it makes sense to have each of the different categories one next to each other so that the viewer is able to compare and contrast the differences/similarities. Finally, color has been the “icing-on-the-cake” given it gave the graph consistency and an ulterior understanding of the specific/overall meaning of each graph. 
+
+The main idea is that with each graph there is an increase in the complexity of the data channels, and the meanings that come with it. This was done with the intention to give a deeper and deeper understanding of the initial simple finding: 
+
+effective antibiotic in general --> effective antibiotic by disease category --> effective antibiotic by specific disease 
