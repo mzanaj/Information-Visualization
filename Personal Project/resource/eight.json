@@ -1,0 +1,1556 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "width": 400,
+  "height": 300,
+  "title": {
+    "text": "High level Performance of top 7 Candidates",
+    "frame": "group"
+  },
+  "style": "cell",
+  "data": [
+    {"name": "selector025_store"},
+    {"name": "selector024_store"},
+    {
+      "name": "data-cf8d68aaf6104026edf707261744f710",
+      "values": [
+        {"answer": "Amash", "end_date": "2019-06-02T00:00:00", "pct": 9.7},
+        {"answer": "Amash", "end_date": "2019-07-28T00:00:00", "pct": 5.5},
+        {"answer": "Amash", "end_date": "2019-09-15T00:00:00", "pct": 4.5},
+        {"answer": "Bennet", "end_date": "2019-06-30T00:00:00", "pct": 26},
+        {"answer": "Bennet", "end_date": "2019-07-28T00:00:00", "pct": 28},
+        {"answer": "Bennet", "end_date": "2019-08-25T00:00:00", "pct": 31},
+        {"answer": "Biden", "end_date": "2018-12-02T00:00:00", "pct": 48},
+        {"answer": "Biden", "end_date": "2018-12-23T00:00:00", "pct": 42},
+        {"answer": "Biden", "end_date": "2019-01-13T00:00:00", "pct": 49},
+        {"answer": "Biden", "end_date": "2019-01-27T00:00:00", "pct": 53.15},
+        {
+          "answer": "Biden",
+          "end_date": "2019-02-03T00:00:00",
+          "pct": 49.440000000000005
+        },
+        {"answer": "Biden", "end_date": "2019-02-17T00:00:00", "pct": 47.3},
+        {"answer": "Biden", "end_date": "2019-02-24T00:00:00", "pct": 52.9},
+        {"answer": "Biden", "end_date": "2019-03-03T00:00:00", "pct": 47.05},
+        {"answer": "Biden", "end_date": "2019-03-10T00:00:00", "pct": 51.06},
+        {
+          "answer": "Biden",
+          "end_date": "2019-03-17T00:00:00",
+          "pct": 51.166666666666664
+        },
+        {"answer": "Biden", "end_date": "2019-03-24T00:00:00", "pct": 49.875},
+        {"answer": "Biden", "end_date": "2019-03-31T00:00:00", "pct": 52.125},
+        {"answer": "Biden", "end_date": "2019-04-07T00:00:00", "pct": 56.9},
+        {
+          "answer": "Biden",
+          "end_date": "2019-04-14T00:00:00",
+          "pct": 46.93333333333334
+        },
+        {"answer": "Biden", "end_date": "2019-04-21T00:00:00", "pct": 46},
+        {
+          "answer": "Biden",
+          "end_date": "2019-04-28T00:00:00",
+          "pct": 48.166666666666664
+        },
+        {"answer": "Biden", "end_date": "2019-05-05T00:00:00", "pct": 44.375},
+        {"answer": "Biden", "end_date": "2019-05-12T00:00:00", "pct": 49},
+        {
+          "answer": "Biden",
+          "end_date": "2019-05-19T00:00:00",
+          "pct": 48.86666666666667
+        },
+        {"answer": "Biden", "end_date": "2019-05-26T00:00:00", "pct": 45},
+        {"answer": "Biden", "end_date": "2019-06-02T00:00:00", "pct": 46.5},
+        {"answer": "Biden", "end_date": "2019-06-09T00:00:00", "pct": 48.75},
+        {
+          "answer": "Biden",
+          "end_date": "2019-06-16T00:00:00",
+          "pct": 45.730000000000004
+        },
+        {
+          "answer": "Biden",
+          "end_date": "2019-06-23T00:00:00",
+          "pct": 46.666666666666664
+        },
+        {"answer": "Biden", "end_date": "2019-06-30T00:00:00", "pct": 54.4},
+        {"answer": "Biden", "end_date": "2019-07-07T00:00:00", "pct": 52},
+        {"answer": "Biden", "end_date": "2019-07-14T00:00:00", "pct": 52.2},
+        {"answer": "Biden", "end_date": "2019-07-21T00:00:00", "pct": 41.5},
+        {"answer": "Biden", "end_date": "2019-07-28T00:00:00", "pct": 45.38},
+        {
+          "answer": "Biden",
+          "end_date": "2019-08-04T00:00:00",
+          "pct": 48.43333333333334
+        },
+        {"answer": "Biden", "end_date": "2019-08-11T00:00:00", "pct": 48},
+        {"answer": "Biden", "end_date": "2019-08-18T00:00:00", "pct": 46.2},
+        {"answer": "Biden", "end_date": "2019-08-25T00:00:00", "pct": 48.225},
+        {"answer": "Biden", "end_date": "2019-09-01T00:00:00", "pct": 53.3},
+        {"answer": "Biden", "end_date": "2019-09-08T00:00:00", "pct": 52},
+        {
+          "answer": "Biden",
+          "end_date": "2019-09-15T00:00:00",
+          "pct": 49.513333333333335
+        },
+        {"answer": "Biden", "end_date": "2019-09-22T00:00:00", "pct": 50.1},
+        {
+          "answer": "Biden",
+          "end_date": "2019-09-29T00:00:00",
+          "pct": 45.916666666666664
+        },
+        {
+          "answer": "Biden",
+          "end_date": "2019-10-06T00:00:00",
+          "pct": 48.66428571428571
+        },
+        {"answer": "Biden", "end_date": "2019-10-13T00:00:00", "pct": 49.7},
+        {
+          "answer": "Biden",
+          "end_date": "2019-10-20T00:00:00",
+          "pct": 51.17142857142857
+        },
+        {
+          "answer": "Biden",
+          "end_date": "2019-10-27T00:00:00",
+          "pct": 46.966874999999995
+        },
+        {
+          "answer": "Biden",
+          "end_date": "2019-11-03T00:00:00",
+          "pct": 50.31999999999999
+        },
+        {"answer": "Biden", "end_date": "2019-11-10T00:00:00", "pct": 48.775},
+        {"answer": "Biden", "end_date": "2019-11-17T00:00:00", "pct": 43.85},
+        {"answer": "Biden", "end_date": "2019-11-24T00:00:00", "pct": 51.7},
+        {
+          "answer": "Biden",
+          "end_date": "2019-12-01T00:00:00",
+          "pct": 49.099999999999994
+        },
+        {
+          "answer": "Biden",
+          "end_date": "2019-12-08T00:00:00",
+          "pct": 44.74142857142857
+        },
+        {"answer": "Biden", "end_date": "2019-12-15T00:00:00", "pct": 47.46},
+        {"answer": "Biden", "end_date": "2019-12-22T00:00:00", "pct": 44.72},
+        {"answer": "Biden", "end_date": "2019-12-29T00:00:00", "pct": 44},
+        {"answer": "Biden", "end_date": "2020-01-05T00:00:00", "pct": 47.425},
+        {
+          "answer": "Biden",
+          "end_date": "2020-01-12T00:00:00",
+          "pct": 46.31666666666666
+        },
+        {
+          "answer": "Biden",
+          "end_date": "2020-01-19T00:00:00",
+          "pct": 49.57142857142857
+        },
+        {
+          "answer": "Biden",
+          "end_date": "2020-01-26T00:00:00",
+          "pct": 46.66363636363636
+        },
+        {
+          "answer": "Biden",
+          "end_date": "2020-02-02T00:00:00",
+          "pct": 43.345454545454544
+        },
+        {"answer": "Biden", "end_date": "2020-02-09T00:00:00", "pct": 44},
+        {
+          "answer": "Biden",
+          "end_date": "2020-02-16T00:00:00",
+          "pct": 49.15555555555555
+        },
+        {
+          "answer": "Biden",
+          "end_date": "2020-02-23T00:00:00",
+          "pct": 47.57500000000001
+        },
+        {"answer": "Bloomberg", "end_date": "2019-02-03T00:00:00", "pct": 46},
+        {"answer": "Bloomberg", "end_date": "2019-11-03T00:00:00", "pct": 42.1},
+        {"answer": "Bloomberg", "end_date": "2019-11-10T00:00:00", "pct": 43},
+        {"answer": "Bloomberg", "end_date": "2019-11-24T00:00:00", "pct": 46},
+        {"answer": "Bloomberg", "end_date": "2019-12-08T00:00:00", "pct": 39.5},
+        {
+          "answer": "Bloomberg",
+          "end_date": "2019-12-15T00:00:00",
+          "pct": 43.25
+        },
+        {"answer": "Bloomberg", "end_date": "2019-12-22T00:00:00", "pct": 36},
+        {"answer": "Bloomberg", "end_date": "2020-01-05T00:00:00", "pct": 43},
+        {
+          "answer": "Bloomberg",
+          "end_date": "2020-01-12T00:00:00",
+          "pct": 46.04
+        },
+        {"answer": "Bloomberg", "end_date": "2020-01-19T00:00:00", "pct": 49},
+        {
+          "answer": "Bloomberg",
+          "end_date": "2020-01-26T00:00:00",
+          "pct": 44.714285714285715
+        },
+        {
+          "answer": "Bloomberg",
+          "end_date": "2020-02-02T00:00:00",
+          "pct": 40.46666666666667
+        },
+        {"answer": "Bloomberg", "end_date": "2020-02-09T00:00:00", "pct": 44.2},
+        {
+          "answer": "Bloomberg",
+          "end_date": "2020-02-16T00:00:00",
+          "pct": 52.65714285714286
+        },
+        {"answer": "Bloomberg", "end_date": "2020-02-23T00:00:00", "pct": 47.9},
+        {"answer": "Booker", "end_date": "2019-01-13T00:00:00", "pct": 45},
+        {"answer": "Booker", "end_date": "2019-01-27T00:00:00", "pct": 47},
+        {"answer": "Booker", "end_date": "2019-02-17T00:00:00", "pct": 43.45},
+        {"answer": "Booker", "end_date": "2019-02-24T00:00:00", "pct": 48.45},
+        {"answer": "Booker", "end_date": "2019-03-03T00:00:00", "pct": 45.8},
+        {"answer": "Booker", "end_date": "2019-03-17T00:00:00", "pct": 42},
+        {"answer": "Booker", "end_date": "2019-03-24T00:00:00", "pct": 41.55},
+        {"answer": "Booker", "end_date": "2019-03-31T00:00:00", "pct": 48},
+        {"answer": "Booker", "end_date": "2019-04-07T00:00:00", "pct": 31},
+        {"answer": "Booker", "end_date": "2019-05-05T00:00:00", "pct": 30},
+        {"answer": "Booker", "end_date": "2019-05-12T00:00:00", "pct": 44},
+        {"answer": "Booker", "end_date": "2019-05-26T00:00:00", "pct": 31},
+        {"answer": "Booker", "end_date": "2019-06-09T00:00:00", "pct": 28},
+        {"answer": "Booker", "end_date": "2019-06-16T00:00:00", "pct": 39.5},
+        {"answer": "Booker", "end_date": "2019-06-23T00:00:00", "pct": 37},
+        {"answer": "Booker", "end_date": "2019-07-21T00:00:00", "pct": 39},
+        {"answer": "Booker", "end_date": "2019-07-28T00:00:00", "pct": 37},
+        {"answer": "Booker", "end_date": "2019-08-11T00:00:00", "pct": 43},
+        {"answer": "Booker", "end_date": "2019-08-18T00:00:00", "pct": 36},
+        {"answer": "Booker", "end_date": "2019-08-25T00:00:00", "pct": 34},
+        {"answer": "Booker", "end_date": "2019-09-08T00:00:00", "pct": 43},
+        {"answer": "Booker", "end_date": "2019-09-22T00:00:00", "pct": 33},
+        {"answer": "Booker", "end_date": "2019-10-06T00:00:00", "pct": 33},
+        {"answer": "Booker", "end_date": "2019-11-17T00:00:00", "pct": 45},
+        {"answer": "Booker", "end_date": "2019-12-08T00:00:00", "pct": 43},
+        {"answer": "Brown", "end_date": "2018-12-02T00:00:00", "pct": 48},
+        {"answer": "Brown", "end_date": "2019-02-03T00:00:00", "pct": 45.5},
+        {"answer": "Brown", "end_date": "2019-02-17T00:00:00", "pct": 51.8},
+        {"answer": "Bullock", "end_date": "2019-06-30T00:00:00", "pct": 26},
+        {"answer": "Bullock", "end_date": "2019-07-28T00:00:00", "pct": 28},
+        {"answer": "Bullock", "end_date": "2019-08-25T00:00:00", "pct": 32},
+        {"answer": "Bullock", "end_date": "2019-10-06T00:00:00", "pct": 51.9},
+        {"answer": "Buttigieg", "end_date": "2019-03-24T00:00:00", "pct": 27},
+        {"answer": "Buttigieg", "end_date": "2019-03-31T00:00:00", "pct": 46.5},
+        {"answer": "Buttigieg", "end_date": "2019-04-07T00:00:00", "pct": 28},
+        {"answer": "Buttigieg", "end_date": "2019-04-14T00:00:00", "pct": 48.6},
+        {"answer": "Buttigieg", "end_date": "2019-04-21T00:00:00", "pct": 44},
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-04-28T00:00:00",
+          "pct": 44.43333333333334
+        },
+        {"answer": "Buttigieg", "end_date": "2019-05-05T00:00:00", "pct": 33},
+        {"answer": "Buttigieg", "end_date": "2019-05-12T00:00:00", "pct": 41},
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-05-19T00:00:00",
+          "pct": 45.825
+        },
+        {"answer": "Buttigieg", "end_date": "2019-05-26T00:00:00", "pct": 44},
+        {"answer": "Buttigieg", "end_date": "2019-06-02T00:00:00", "pct": 38.9},
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-06-09T00:00:00",
+          "pct": 39.82
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-06-16T00:00:00",
+          "pct": 37.285714285714285
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-06-23T00:00:00",
+          "pct": 39.666666666666664
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-06-30T00:00:00",
+          "pct": 51.65
+        },
+        {"answer": "Buttigieg", "end_date": "2019-07-07T00:00:00", "pct": 47.5},
+        {"answer": "Buttigieg", "end_date": "2019-07-14T00:00:00", "pct": 48.6},
+        {"answer": "Buttigieg", "end_date": "2019-07-21T00:00:00", "pct": 40},
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-07-28T00:00:00",
+          "pct": 35.666666666666664
+        },
+        {"answer": "Buttigieg", "end_date": "2019-08-04T00:00:00", "pct": 42.8},
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-08-11T00:00:00",
+          "pct": 40.666666666666664
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-08-18T00:00:00",
+          "pct": 37.25
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-08-25T00:00:00",
+          "pct": 41.233333333333334
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-09-01T00:00:00",
+          "pct": 49.15
+        },
+        {"answer": "Buttigieg", "end_date": "2019-09-08T00:00:00", "pct": 47},
+        {"answer": "Buttigieg", "end_date": "2019-09-15T00:00:00", "pct": 30.4},
+        {"answer": "Buttigieg", "end_date": "2019-09-22T00:00:00", "pct": 34},
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-10-06T00:00:00",
+          "pct": 40.45
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-10-13T00:00:00",
+          "pct": 45.82857142857143
+        },
+        {"answer": "Buttigieg", "end_date": "2019-10-20T00:00:00", "pct": 44},
+        {"answer": "Buttigieg", "end_date": "2019-10-27T00:00:00", "pct": 43},
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-11-03T00:00:00",
+          "pct": 42.00666666666667
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-11-10T00:00:00",
+          "pct": 43.95
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-11-17T00:00:00",
+          "pct": 37.925
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-11-24T00:00:00",
+          "pct": 46.975
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-12-01T00:00:00",
+          "pct": 50.55
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-12-08T00:00:00",
+          "pct": 42.13285714285714
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2019-12-15T00:00:00",
+          "pct": 43.01428571428572
+        },
+        {"answer": "Buttigieg", "end_date": "2019-12-22T00:00:00", "pct": 43.7},
+        {"answer": "Buttigieg", "end_date": "2019-12-29T00:00:00", "pct": 43},
+        {
+          "answer": "Buttigieg",
+          "end_date": "2020-01-05T00:00:00",
+          "pct": 44.975
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2020-01-12T00:00:00",
+          "pct": 45.62
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2020-01-19T00:00:00",
+          "pct": 45.666666666666664
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2020-01-26T00:00:00",
+          "pct": 43.410000000000004
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2020-02-02T00:00:00",
+          "pct": 38.96363636363637
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2020-02-09T00:00:00",
+          "pct": 42.25
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2020-02-16T00:00:00",
+          "pct": 46.922222222222224
+        },
+        {
+          "answer": "Buttigieg",
+          "end_date": "2020-02-23T00:00:00",
+          "pct": 46.525
+        },
+        {"answer": "Castro", "end_date": "2019-03-03T00:00:00", "pct": 41},
+        {"answer": "Castro", "end_date": "2019-03-24T00:00:00", "pct": 30},
+        {"answer": "Castro", "end_date": "2019-04-07T00:00:00", "pct": 30},
+        {"answer": "Castro", "end_date": "2019-05-05T00:00:00", "pct": 26},
+        {"answer": "Castro", "end_date": "2019-05-26T00:00:00", "pct": 26},
+        {"answer": "Castro", "end_date": "2019-06-09T00:00:00", "pct": 43},
+        {"answer": "Castro", "end_date": "2019-06-23T00:00:00", "pct": 29},
+        {"answer": "Castro", "end_date": "2019-07-21T00:00:00", "pct": 40},
+        {"answer": "Castro", "end_date": "2019-07-28T00:00:00", "pct": 29},
+        {"answer": "Castro", "end_date": "2019-08-04T00:00:00", "pct": 47.2},
+        {"answer": "Castro", "end_date": "2019-08-25T00:00:00", "pct": 36},
+        {"answer": "Castro", "end_date": "2019-09-08T00:00:00", "pct": 44},
+        {"answer": "Castro", "end_date": "2019-09-22T00:00:00", "pct": 33},
+        {"answer": "Castro", "end_date": "2019-10-06T00:00:00", "pct": 30},
+        {"answer": "Castro", "end_date": "2019-10-27T00:00:00", "pct": 33},
+        {"answer": "Castro", "end_date": "2019-11-17T00:00:00", "pct": 34.2},
+        {"answer": "Clinton", "end_date": "2019-10-06T00:00:00", "pct": 45},
+        {"answer": "Clinton", "end_date": "2019-11-03T00:00:00", "pct": 43},
+        {"answer": "Clinton", "end_date": "2019-12-15T00:00:00", "pct": 43},
+        {"answer": "Delaney", "end_date": "2019-03-24T00:00:00", "pct": 28},
+        {"answer": "Delaney", "end_date": "2019-04-07T00:00:00", "pct": 27},
+        {"answer": "Delaney", "end_date": "2019-05-05T00:00:00", "pct": 26},
+        {"answer": "Delaney", "end_date": "2019-06-02T00:00:00", "pct": 27},
+        {"answer": "Delaney", "end_date": "2019-06-30T00:00:00", "pct": 25},
+        {"answer": "Delaney", "end_date": "2019-07-28T00:00:00", "pct": 28},
+        {"answer": "Delaney", "end_date": "2019-08-25T00:00:00", "pct": 32},
+        {"answer": "Gabbard", "end_date": "2019-03-24T00:00:00", "pct": 27},
+        {"answer": "Gabbard", "end_date": "2019-04-07T00:00:00", "pct": 25},
+        {"answer": "Gabbard", "end_date": "2019-05-05T00:00:00", "pct": 24},
+        {"answer": "Gabbard", "end_date": "2019-06-02T00:00:00", "pct": 26},
+        {"answer": "Gabbard", "end_date": "2019-06-30T00:00:00", "pct": 25},
+        {"answer": "Gabbard", "end_date": "2019-07-28T00:00:00", "pct": 27},
+        {"answer": "Gabbard", "end_date": "2019-08-25T00:00:00", "pct": 33},
+        {"answer": "Gabbard", "end_date": "2020-01-19T00:00:00", "pct": 41},
+        {"answer": "Gillibrand", "end_date": "2019-01-27T00:00:00", "pct": 47},
+        {"answer": "Gillibrand", "end_date": "2019-02-03T00:00:00", "pct": 46},
+        {"answer": "Gillibrand", "end_date": "2019-03-24T00:00:00", "pct": 31},
+        {"answer": "Gillibrand", "end_date": "2019-03-31T00:00:00", "pct": 47},
+        {"answer": "Gillibrand", "end_date": "2019-04-07T00:00:00", "pct": 29},
+        {"answer": "Gillibrand", "end_date": "2019-05-05T00:00:00", "pct": 28},
+        {"answer": "Gillibrand", "end_date": "2019-06-02T00:00:00", "pct": 29},
+        {"answer": "Gillibrand", "end_date": "2019-06-09T00:00:00", "pct": 58},
+        {"answer": "Gillibrand", "end_date": "2019-06-30T00:00:00", "pct": 30},
+        {"answer": "Gillibrand", "end_date": "2019-07-28T00:00:00", "pct": 32},
+        {"answer": "Gillibrand", "end_date": "2019-08-25T00:00:00", "pct": 34},
+        {"answer": "Gravel", "end_date": "2019-05-05T00:00:00", "pct": 22},
+        {"answer": "Gravel", "end_date": "2019-05-26T00:00:00", "pct": 21},
+        {"answer": "Gravel", "end_date": "2019-06-30T00:00:00", "pct": 24},
+        {"answer": "Gravel", "end_date": "2019-07-28T00:00:00", "pct": 25},
+        {"answer": "Haley", "end_date": "2019-09-15T00:00:00", "pct": 23.8},
+        {"answer": "Haley", "end_date": "2019-09-22T00:00:00", "pct": 27.4},
+        {"answer": "Haley", "end_date": "2019-10-20T00:00:00", "pct": 26.9},
+        {"answer": "Harris", "end_date": "2019-01-13T00:00:00", "pct": 45},
+        {"answer": "Harris", "end_date": "2019-01-27T00:00:00", "pct": 47.3},
+        {
+          "answer": "Harris",
+          "end_date": "2019-02-03T00:00:00",
+          "pct": 43.580000000000005
+        },
+        {"answer": "Harris", "end_date": "2019-02-17T00:00:00", "pct": 41.82},
+        {"answer": "Harris", "end_date": "2019-02-24T00:00:00", "pct": 48.4},
+        {"answer": "Harris", "end_date": "2019-03-03T00:00:00", "pct": 42.55},
+        {"answer": "Harris", "end_date": "2019-03-10T00:00:00", "pct": 47.675},
+        {"answer": "Harris", "end_date": "2019-03-17T00:00:00", "pct": 46.9},
+        {"answer": "Harris", "end_date": "2019-03-24T00:00:00", "pct": 42.9},
+        {
+          "answer": "Harris",
+          "end_date": "2019-03-31T00:00:00",
+          "pct": 49.333333333333336
+        },
+        {"answer": "Harris", "end_date": "2019-04-07T00:00:00", "pct": 32},
+        {
+          "answer": "Harris",
+          "end_date": "2019-04-14T00:00:00",
+          "pct": 43.43333333333334
+        },
+        {"answer": "Harris", "end_date": "2019-04-21T00:00:00", "pct": 43},
+        {"answer": "Harris", "end_date": "2019-04-28T00:00:00", "pct": 47.4},
+        {"answer": "Harris", "end_date": "2019-05-05T00:00:00", "pct": 34.5},
+        {"answer": "Harris", "end_date": "2019-05-12T00:00:00", "pct": 43},
+        {
+          "answer": "Harris",
+          "end_date": "2019-05-19T00:00:00",
+          "pct": 46.150000000000006
+        },
+        {"answer": "Harris", "end_date": "2019-05-26T00:00:00", "pct": 39.5},
+        {"answer": "Harris", "end_date": "2019-06-02T00:00:00", "pct": 46.8},
+        {"answer": "Harris", "end_date": "2019-06-09T00:00:00", "pct": 40.36},
+        {"answer": "Harris", "end_date": "2019-06-16T00:00:00", "pct": 41.25},
+        {
+          "answer": "Harris",
+          "end_date": "2019-06-23T00:00:00",
+          "pct": 41.333333333333336
+        },
+        {"answer": "Harris", "end_date": "2019-06-30T00:00:00", "pct": 51.95},
+        {"answer": "Harris", "end_date": "2019-07-07T00:00:00", "pct": 49.5},
+        {"answer": "Harris", "end_date": "2019-07-14T00:00:00", "pct": 46.85},
+        {"answer": "Harris", "end_date": "2019-07-21T00:00:00", "pct": 41},
+        {"answer": "Harris", "end_date": "2019-07-28T00:00:00", "pct": 39.95},
+        {
+          "answer": "Harris",
+          "end_date": "2019-08-04T00:00:00",
+          "pct": 44.083333333333336
+        },
+        {
+          "answer": "Harris",
+          "end_date": "2019-08-11T00:00:00",
+          "pct": 42.833333333333336
+        },
+        {"answer": "Harris", "end_date": "2019-08-18T00:00:00", "pct": 40},
+        {"answer": "Harris", "end_date": "2019-08-25T00:00:00", "pct": 42.375},
+        {"answer": "Harris", "end_date": "2019-09-01T00:00:00", "pct": 48.5},
+        {
+          "answer": "Harris",
+          "end_date": "2019-09-08T00:00:00",
+          "pct": 48.333333333333336
+        },
+        {
+          "answer": "Harris",
+          "end_date": "2019-09-15T00:00:00",
+          "pct": 47.077777777777776
+        },
+        {
+          "answer": "Harris",
+          "end_date": "2019-09-22T00:00:00",
+          "pct": 44.300000000000004
+        },
+        {"answer": "Harris", "end_date": "2019-09-29T00:00:00", "pct": 46.05},
+        {
+          "answer": "Harris",
+          "end_date": "2019-10-06T00:00:00",
+          "pct": 43.46666666666667
+        },
+        {
+          "answer": "Harris",
+          "end_date": "2019-10-13T00:00:00",
+          "pct": 45.471428571428575
+        },
+        {"answer": "Harris", "end_date": "2019-10-20T00:00:00", "pct": 48},
+        {"answer": "Harris", "end_date": "2019-11-03T00:00:00", "pct": 45},
+        {"answer": "Harris", "end_date": "2019-11-10T00:00:00", "pct": 44.45},
+        {"answer": "Harris", "end_date": "2019-11-17T00:00:00", "pct": 33.1},
+        {
+          "answer": "Harris",
+          "end_date": "2019-11-24T00:00:00",
+          "pct": 48.666666666666664
+        },
+        {
+          "answer": "Hickenlooper",
+          "end_date": "2019-03-24T00:00:00",
+          "pct": 28
+        },
+        {
+          "answer": "Hickenlooper",
+          "end_date": "2019-04-07T00:00:00",
+          "pct": 25
+        },
+        {
+          "answer": "Hickenlooper",
+          "end_date": "2019-05-05T00:00:00",
+          "pct": 25
+        },
+        {
+          "answer": "Hickenlooper",
+          "end_date": "2019-06-02T00:00:00",
+          "pct": 26
+        },
+        {
+          "answer": "Hickenlooper",
+          "end_date": "2019-06-30T00:00:00",
+          "pct": 27
+        },
+        {
+          "answer": "Hickenlooper",
+          "end_date": "2019-07-28T00:00:00",
+          "pct": 27
+        },
+        {"answer": "Inslee", "end_date": "2019-03-24T00:00:00", "pct": 26},
+        {"answer": "Inslee", "end_date": "2019-04-07T00:00:00", "pct": 25},
+        {"answer": "Inslee", "end_date": "2019-05-05T00:00:00", "pct": 24},
+        {"answer": "Inslee", "end_date": "2019-05-26T00:00:00", "pct": 21},
+        {"answer": "Inslee", "end_date": "2019-06-30T00:00:00", "pct": 24},
+        {"answer": "Inslee", "end_date": "2019-07-28T00:00:00", "pct": 28},
+        {"answer": "Klobuchar", "end_date": "2019-02-17T00:00:00", "pct": 51.5},
+        {
+          "answer": "Klobuchar",
+          "end_date": "2019-03-03T00:00:00",
+          "pct": 47.95
+        },
+        {"answer": "Klobuchar", "end_date": "2019-03-10T00:00:00", "pct": 52.8},
+        {"answer": "Klobuchar", "end_date": "2019-03-17T00:00:00", "pct": 50.4},
+        {"answer": "Klobuchar", "end_date": "2019-03-24T00:00:00", "pct": 30},
+        {"answer": "Klobuchar", "end_date": "2019-04-07T00:00:00", "pct": 30},
+        {"answer": "Klobuchar", "end_date": "2019-05-05T00:00:00", "pct": 27},
+        {"answer": "Klobuchar", "end_date": "2019-06-02T00:00:00", "pct": 29},
+        {"answer": "Klobuchar", "end_date": "2019-06-16T00:00:00", "pct": 34},
+        {"answer": "Klobuchar", "end_date": "2019-06-23T00:00:00", "pct": 30},
+        {"answer": "Klobuchar", "end_date": "2019-07-28T00:00:00", "pct": 28},
+        {"answer": "Klobuchar", "end_date": "2019-08-25T00:00:00", "pct": 32},
+        {"answer": "Klobuchar", "end_date": "2019-09-22T00:00:00", "pct": 32},
+        {"answer": "Klobuchar", "end_date": "2019-10-06T00:00:00", "pct": 30},
+        {"answer": "Klobuchar", "end_date": "2019-10-20T00:00:00", "pct": 55},
+        {"answer": "Klobuchar", "end_date": "2019-11-17T00:00:00", "pct": 36},
+        {"answer": "Klobuchar", "end_date": "2019-12-15T00:00:00", "pct": 47},
+        {
+          "answer": "Klobuchar",
+          "end_date": "2020-01-19T00:00:00",
+          "pct": 45.25
+        },
+        {"answer": "Klobuchar", "end_date": "2020-01-26T00:00:00", "pct": 40.8},
+        {"answer": "Klobuchar", "end_date": "2020-02-02T00:00:00", "pct": 36},
+        {"answer": "Klobuchar", "end_date": "2020-02-09T00:00:00", "pct": 45},
+        {"answer": "Klobuchar", "end_date": "2020-02-16T00:00:00", "pct": 46.6},
+        {
+          "answer": "Klobuchar",
+          "end_date": "2020-02-23T00:00:00",
+          "pct": 45.31
+        },
+        {"answer": "Messam", "end_date": "2019-05-05T00:00:00", "pct": 21},
+        {"answer": "Messam", "end_date": "2019-05-26T00:00:00", "pct": 20},
+        {"answer": "Messam", "end_date": "2019-06-30T00:00:00", "pct": 23},
+        {"answer": "Messam", "end_date": "2019-07-28T00:00:00", "pct": 24},
+        {"answer": "Messam", "end_date": "2019-08-25T00:00:00", "pct": 28},
+        {"answer": "Moulton", "end_date": "2019-05-05T00:00:00", "pct": 22},
+        {"answer": "Moulton", "end_date": "2019-05-26T00:00:00", "pct": 21},
+        {"answer": "Moulton", "end_date": "2019-06-30T00:00:00", "pct": 24},
+        {"answer": "Moulton", "end_date": "2019-07-28T00:00:00", "pct": 25},
+        {"answer": "O'Rourke", "end_date": "2018-12-23T00:00:00", "pct": 30},
+        {"answer": "O'Rourke", "end_date": "2019-01-13T00:00:00", "pct": 42},
+        {"answer": "O'Rourke", "end_date": "2019-01-27T00:00:00", "pct": 47.3},
+        {"answer": "O'Rourke", "end_date": "2019-02-03T00:00:00", "pct": 42.25},
+        {"answer": "O'Rourke", "end_date": "2019-02-17T00:00:00", "pct": 52.8},
+        {"answer": "O'Rourke", "end_date": "2019-03-03T00:00:00", "pct": 44.95},
+        {
+          "answer": "O'Rourke",
+          "end_date": "2019-03-10T00:00:00",
+          "pct": 46.666666666666664
+        },
+        {"answer": "O'Rourke", "end_date": "2019-03-17T00:00:00", "pct": 46.9},
+        {
+          "answer": "O'Rourke",
+          "end_date": "2019-03-24T00:00:00",
+          "pct": 42.06666666666667
+        },
+        {"answer": "O'Rourke", "end_date": "2019-03-31T00:00:00", "pct": 48.9},
+        {"answer": "O'Rourke", "end_date": "2019-04-07T00:00:00", "pct": 34},
+        {"answer": "O'Rourke", "end_date": "2019-04-14T00:00:00", "pct": 44.6},
+        {"answer": "O'Rourke", "end_date": "2019-04-21T00:00:00", "pct": 44},
+        {"answer": "O'Rourke", "end_date": "2019-04-28T00:00:00", "pct": 51.15},
+        {"answer": "O'Rourke", "end_date": "2019-05-05T00:00:00", "pct": 35.5},
+        {"answer": "O'Rourke", "end_date": "2019-05-19T00:00:00", "pct": 48.2},
+        {"answer": "O'Rourke", "end_date": "2019-05-26T00:00:00", "pct": 38},
+        {"answer": "O'Rourke", "end_date": "2019-06-09T00:00:00", "pct": 36.5},
+        {"answer": "O'Rourke", "end_date": "2019-06-23T00:00:00", "pct": 39},
+        {"answer": "O'Rourke", "end_date": "2019-07-28T00:00:00", "pct": 38.9},
+        {"answer": "O'Rourke", "end_date": "2019-08-04T00:00:00", "pct": 45.55},
+        {"answer": "O'Rourke", "end_date": "2019-08-11T00:00:00", "pct": 27},
+        {"answer": "O'Rourke", "end_date": "2019-08-18T00:00:00", "pct": 28},
+        {"answer": "O'Rourke", "end_date": "2019-08-25T00:00:00", "pct": 39},
+        {"answer": "O'Rourke", "end_date": "2019-09-15T00:00:00", "pct": 46},
+        {"answer": "O'Rourke", "end_date": "2019-09-22T00:00:00", "pct": 38},
+        {"answer": "O'Rourke", "end_date": "2019-10-06T00:00:00", "pct": 32},
+        {"answer": "O'Rourke", "end_date": "2019-10-27T00:00:00", "pct": 41},
+        {"answer": "Obama", "end_date": "2018-11-18T00:00:00", "pct": 50},
+        {"answer": "Obama", "end_date": "2019-08-11T00:00:00", "pct": 55},
+        {"answer": "Obama", "end_date": "2019-12-22T00:00:00", "pct": 48},
+        {
+          "answer": "Ocasio-Cortez",
+          "end_date": "2019-01-13T00:00:00",
+          "pct": 40
+        },
+        {"answer": "Pelosi", "end_date": "2019-01-27T00:00:00", "pct": 47},
+        {"answer": "Pelosi", "end_date": "2019-02-03T00:00:00", "pct": 45.2},
+        {"answer": "Pence", "end_date": "2019-03-10T00:00:00", "pct": 46.5},
+        {"answer": "Pence", "end_date": "2019-09-15T00:00:00", "pct": 31.8},
+        {"answer": "Pence", "end_date": "2019-09-22T00:00:00", "pct": 40.2},
+        {
+          "answer": "Pence",
+          "end_date": "2019-10-06T00:00:00",
+          "pct": 47.96666666666667
+        },
+        {
+          "answer": "Pence",
+          "end_date": "2019-10-20T00:00:00",
+          "pct": 37.083333333333336
+        },
+        {"answer": "Pence", "end_date": "2019-10-27T00:00:00", "pct": 42.75},
+        {"answer": "Pence", "end_date": "2019-11-24T00:00:00", "pct": 35.75},
+        {"answer": "Rapinoe", "end_date": "2019-07-14T00:00:00", "pct": 42},
+        {"answer": "Ryan", "end_date": "2019-05-05T00:00:00", "pct": 27},
+        {"answer": "Ryan", "end_date": "2019-06-02T00:00:00", "pct": 28},
+        {"answer": "Sanders", "end_date": "2018-12-02T00:00:00", "pct": 47},
+        {"answer": "Sanders", "end_date": "2018-12-23T00:00:00", "pct": 38},
+        {"answer": "Sanders", "end_date": "2019-01-13T00:00:00", "pct": 48},
+        {
+          "answer": "Sanders",
+          "end_date": "2019-01-27T00:00:00",
+          "pct": 52.36666666666667
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2019-02-03T00:00:00",
+          "pct": 46.833333333333336
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2019-02-17T00:00:00",
+          "pct": 40.766666666666666
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2019-02-24T00:00:00",
+          "pct": 51.03333333333333
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2019-03-03T00:00:00",
+          "pct": 44.43333333333334
+        },
+        {"answer": "Sanders", "end_date": "2019-03-10T00:00:00", "pct": 49.36},
+        {
+          "answer": "Sanders",
+          "end_date": "2019-03-17T00:00:00",
+          "pct": 48.833333333333336
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2019-03-24T00:00:00",
+          "pct": 46.037499999999994
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2019-03-31T00:00:00",
+          "pct": 50.73333333333333
+        },
+        {"answer": "Sanders", "end_date": "2019-04-07T00:00:00", "pct": 52.4},
+        {"answer": "Sanders", "end_date": "2019-04-14T00:00:00", "pct": 44.875},
+        {"answer": "Sanders", "end_date": "2019-04-21T00:00:00", "pct": 51},
+        {"answer": "Sanders", "end_date": "2019-04-28T00:00:00", "pct": 49.45},
+        {"answer": "Sanders", "end_date": "2019-05-05T00:00:00", "pct": 37},
+        {"answer": "Sanders", "end_date": "2019-05-12T00:00:00", "pct": 49},
+        {"answer": "Sanders", "end_date": "2019-05-19T00:00:00", "pct": 49.65},
+        {"answer": "Sanders", "end_date": "2019-05-26T00:00:00", "pct": 42.5},
+        {"answer": "Sanders", "end_date": "2019-06-02T00:00:00", "pct": 53.2},
+        {"answer": "Sanders", "end_date": "2019-06-09T00:00:00", "pct": 45.75},
+        {"answer": "Sanders", "end_date": "2019-06-16T00:00:00", "pct": 43.5},
+        {"answer": "Sanders", "end_date": "2019-06-23T00:00:00", "pct": 45},
+        {"answer": "Sanders", "end_date": "2019-06-30T00:00:00", "pct": 53.8},
+        {"answer": "Sanders", "end_date": "2019-07-07T00:00:00", "pct": 50},
+        {"answer": "Sanders", "end_date": "2019-07-14T00:00:00", "pct": 50.5},
+        {"answer": "Sanders", "end_date": "2019-07-21T00:00:00", "pct": 48},
+        {"answer": "Sanders", "end_date": "2019-07-28T00:00:00", "pct": 42.3},
+        {
+          "answer": "Sanders",
+          "end_date": "2019-08-04T00:00:00",
+          "pct": 48.31428571428571
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2019-08-11T00:00:00",
+          "pct": 48.666666666666664
+        },
+        {"answer": "Sanders", "end_date": "2019-08-18T00:00:00", "pct": 42.6},
+        {"answer": "Sanders", "end_date": "2019-08-25T00:00:00", "pct": 45.95},
+        {"answer": "Sanders", "end_date": "2019-09-01T00:00:00", "pct": 50.5},
+        {
+          "answer": "Sanders",
+          "end_date": "2019-09-08T00:00:00",
+          "pct": 50.666666666666664
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2019-09-15T00:00:00",
+          "pct": 48.56428571428571
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2019-09-22T00:00:00",
+          "pct": 47.3125
+        },
+        {"answer": "Sanders", "end_date": "2019-09-29T00:00:00", "pct": 42.55},
+        {
+          "answer": "Sanders",
+          "end_date": "2019-10-06T00:00:00",
+          "pct": 46.66428571428571
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2019-10-13T00:00:00",
+          "pct": 48.55555555555556
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2019-10-20T00:00:00",
+          "pct": 50.800000000000004
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2019-10-27T00:00:00",
+          "pct": 46.014375
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2019-11-03T00:00:00",
+          "pct": 49.82909090909091
+        },
+        {"answer": "Sanders", "end_date": "2019-11-10T00:00:00", "pct": 47.125},
+        {"answer": "Sanders", "end_date": "2019-11-17T00:00:00", "pct": 44.225},
+        {
+          "answer": "Sanders",
+          "end_date": "2019-11-24T00:00:00",
+          "pct": 52.6875
+        },
+        {"answer": "Sanders", "end_date": "2019-12-01T00:00:00", "pct": 50.25},
+        {"answer": "Sanders", "end_date": "2019-12-08T00:00:00", "pct": 42.13},
+        {"answer": "Sanders", "end_date": "2019-12-15T00:00:00", "pct": 45.61},
+        {
+          "answer": "Sanders",
+          "end_date": "2019-12-22T00:00:00",
+          "pct": 44.019999999999996
+        },
+        {"answer": "Sanders", "end_date": "2019-12-29T00:00:00", "pct": 42},
+        {"answer": "Sanders", "end_date": "2020-01-05T00:00:00", "pct": 46.575},
+        {
+          "answer": "Sanders",
+          "end_date": "2020-01-12T00:00:00",
+          "pct": 46.336363636363636
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2020-01-19T00:00:00",
+          "pct": 48.77777777777778
+        },
+        {"answer": "Sanders", "end_date": "2020-01-26T00:00:00", "pct": 45.75},
+        {
+          "answer": "Sanders",
+          "end_date": "2020-02-02T00:00:00",
+          "pct": 41.92727272727273
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2020-02-09T00:00:00",
+          "pct": 44.333333333333336
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2020-02-16T00:00:00",
+          "pct": 49.455555555555556
+        },
+        {
+          "answer": "Sanders",
+          "end_date": "2020-02-23T00:00:00",
+          "pct": 48.541666666666664
+        },
+        {
+          "answer": "Schultz",
+          "end_date": "2019-02-03T00:00:00",
+          "pct": 7.1800000000000015
+        },
+        {"answer": "Schultz", "end_date": "2019-02-17T00:00:00", "pct": 9.6},
+        {"answer": "Schultz", "end_date": "2019-02-24T00:00:00", "pct": 10.6},
+        {"answer": "Schultz", "end_date": "2019-03-03T00:00:00", "pct": 6.8},
+        {
+          "answer": "Schultz",
+          "end_date": "2019-03-10T00:00:00",
+          "pct": 5.957142857142856
+        },
+        {"answer": "Schultz", "end_date": "2019-03-17T00:00:00", "pct": 4.9},
+        {"answer": "Schultz", "end_date": "2019-03-24T00:00:00", "pct": 7.2},
+        {"answer": "Schumer", "end_date": "2019-01-27T00:00:00", "pct": 46},
+        {"answer": "Steyer", "end_date": "2019-07-28T00:00:00", "pct": 28},
+        {"answer": "Steyer", "end_date": "2019-08-25T00:00:00", "pct": 32},
+        {"answer": "Steyer", "end_date": "2019-09-22T00:00:00", "pct": 31},
+        {"answer": "Steyer", "end_date": "2019-10-06T00:00:00", "pct": 28},
+        {"answer": "Steyer", "end_date": "2020-01-19T00:00:00", "pct": 48.5},
+        {
+          "answer": "Steyer",
+          "end_date": "2020-02-02T00:00:00",
+          "pct": 35.666666666666664
+        },
+        {"answer": "Steyer", "end_date": "2020-02-16T00:00:00", "pct": 54},
+        {"answer": "Steyer", "end_date": "2020-02-23T00:00:00", "pct": 42},
+        {"answer": "Swalwell", "end_date": "2019-05-05T00:00:00", "pct": 25},
+        {"answer": "Swalwell", "end_date": "2019-06-02T00:00:00", "pct": 25},
+        {"answer": "Swalwell", "end_date": "2019-06-30T00:00:00", "pct": 25},
+        {"answer": "Trump", "end_date": "2018-11-18T00:00:00", "pct": 43},
+        {"answer": "Trump", "end_date": "2018-12-02T00:00:00", "pct": 45.25},
+        {
+          "answer": "Trump",
+          "end_date": "2018-12-23T00:00:00",
+          "pct": 36.666666666666664
+        },
+        {"answer": "Trump", "end_date": "2019-01-13T00:00:00", "pct": 45.875},
+        {"answer": "Trump", "end_date": "2019-01-27T00:00:00", "pct": 41.53125},
+        {
+          "answer": "Trump",
+          "end_date": "2019-02-03T00:00:00",
+          "pct": 46.83076923076923
+        },
+        {"answer": "Trump", "end_date": "2019-02-17T00:00:00", "pct": 46.92},
+        {
+          "answer": "Trump",
+          "end_date": "2019-02-24T00:00:00",
+          "pct": 44.333333333333336
+        },
+        {"answer": "Trump", "end_date": "2019-03-03T00:00:00", "pct": 50.24375},
+        {
+          "answer": "Trump",
+          "end_date": "2019-03-10T00:00:00",
+          "pct": 46.16470588235294
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-03-17T00:00:00",
+          "pct": 46.00714285714285
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-03-24T00:00:00",
+          "pct": 42.19069767441861
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-03-31T00:00:00",
+          "pct": 45.515789473684215
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-04-07T00:00:00",
+          "pct": 37.015789473684215
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-04-14T00:00:00",
+          "pct": 48.553333333333335
+        },
+        {"answer": "Trump", "end_date": "2019-04-21T00:00:00", "pct": 40.7},
+        {
+          "answer": "Trump",
+          "end_date": "2019-04-28T00:00:00",
+          "pct": 47.16428571428571
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-05-05T00:00:00",
+          "pct": 41.27272727272727
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-05-12T00:00:00",
+          "pct": 41.42857142857143
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-05-19T00:00:00",
+          "pct": 46.144000000000005
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-05-26T00:00:00",
+          "pct": 41.333333333333336
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-06-02T00:00:00",
+          "pct": 39.51764705882353
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-06-09T00:00:00",
+          "pct": 39.86470588235294
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-06-16T00:00:00",
+          "pct": 43.91794871794872
+        },
+        {"answer": "Trump", "end_date": "2019-06-23T00:00:00", "pct": 43},
+        {
+          "answer": "Trump",
+          "end_date": "2019-06-30T00:00:00",
+          "pct": 41.712500000000006
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-07-07T00:00:00",
+          "pct": 44.81818181818182
+        },
+        {"answer": "Trump", "end_date": "2019-07-14T00:00:00", "pct": 46.19},
+        {"answer": "Trump", "end_date": "2019-07-21T00:00:00", "pct": 41.125},
+        {
+          "answer": "Trump",
+          "end_date": "2019-07-28T00:00:00",
+          "pct": 39.27560975609755
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-08-04T00:00:00",
+          "pct": 44.08157894736843
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-08-11T00:00:00",
+          "pct": 40.18421052631579
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-08-18T00:00:00",
+          "pct": 41.57142857142857
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-08-25T00:00:00",
+          "pct": 40.87428571428571
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-09-01T00:00:00",
+          "pct": 44.172222222222224
+        },
+        {"answer": "Trump", "end_date": "2019-09-08T00:00:00", "pct": 41.5625},
+        {
+          "answer": "Trump",
+          "end_date": "2019-09-15T00:00:00",
+          "pct": 41.21836734693877
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-09-22T00:00:00",
+          "pct": 41.32333333333334
+        },
+        {"answer": "Trump", "end_date": "2019-09-29T00:00:00", "pct": 42.3875},
+        {
+          "answer": "Trump",
+          "end_date": "2019-10-06T00:00:00",
+          "pct": 42.52456140350876
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-10-13T00:00:00",
+          "pct": 43.99268292682926
+        },
+        {"answer": "Trump", "end_date": "2019-10-20T00:00:00", "pct": 41.2},
+        {
+          "answer": "Trump",
+          "end_date": "2019-10-27T00:00:00",
+          "pct": 45.27127659574468
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-11-03T00:00:00",
+          "pct": 43.24479166666666
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-11-10T00:00:00",
+          "pct": 43.88823529411765
+        },
+        {"answer": "Trump", "end_date": "2019-11-17T00:00:00", "pct": 44.56},
+        {
+          "answer": "Trump",
+          "end_date": "2019-11-24T00:00:00",
+          "pct": 41.98787878787879
+        },
+        {"answer": "Trump", "end_date": "2019-12-01T00:00:00", "pct": 45.42},
+        {
+          "answer": "Trump",
+          "end_date": "2019-12-08T00:00:00",
+          "pct": 45.58882352941176
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-12-15T00:00:00",
+          "pct": 45.667441860465125
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2019-12-22T00:00:00",
+          "pct": 43.55238095238095
+        },
+        {"answer": "Trump", "end_date": "2019-12-29T00:00:00", "pct": 52.25},
+        {
+          "answer": "Trump",
+          "end_date": "2020-01-05T00:00:00",
+          "pct": 42.68235294117647
+        },
+        {"answer": "Trump", "end_date": "2020-01-12T00:00:00", "pct": 45.99375},
+        {
+          "answer": "Trump",
+          "end_date": "2020-01-19T00:00:00",
+          "pct": 43.2093023255814
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2020-01-26T00:00:00",
+          "pct": 46.11296296296296
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2020-02-02T00:00:00",
+          "pct": 49.22063492063492
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2020-02-09T00:00:00",
+          "pct": 47.93103448275862
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2020-02-16T00:00:00",
+          "pct": 40.56666666666666
+        },
+        {
+          "answer": "Trump",
+          "end_date": "2020-02-23T00:00:00",
+          "pct": 44.670588235294126
+        },
+        {"answer": "Warren", "end_date": "2018-12-02T00:00:00", "pct": 43},
+        {"answer": "Warren", "end_date": "2019-01-13T00:00:00", "pct": 46},
+        {"answer": "Warren", "end_date": "2019-01-27T00:00:00", "pct": 49.1},
+        {"answer": "Warren", "end_date": "2019-02-03T00:00:00", "pct": 43.42},
+        {"answer": "Warren", "end_date": "2019-02-17T00:00:00", "pct": 45.3},
+        {
+          "answer": "Warren",
+          "end_date": "2019-02-24T00:00:00",
+          "pct": 46.73333333333333
+        },
+        {
+          "answer": "Warren",
+          "end_date": "2019-03-03T00:00:00",
+          "pct": 42.53333333333333
+        },
+        {"answer": "Warren", "end_date": "2019-03-10T00:00:00", "pct": 48.5},
+        {"answer": "Warren", "end_date": "2019-03-17T00:00:00", "pct": 48.05},
+        {"answer": "Warren", "end_date": "2019-03-24T00:00:00", "pct": 43.72},
+        {"answer": "Warren", "end_date": "2019-03-31T00:00:00", "pct": 48.9},
+        {"answer": "Warren", "end_date": "2019-04-07T00:00:00", "pct": 49.05},
+        {"answer": "Warren", "end_date": "2019-04-14T00:00:00", "pct": 45.65},
+        {"answer": "Warren", "end_date": "2019-04-21T00:00:00", "pct": 47},
+        {"answer": "Warren", "end_date": "2019-04-28T00:00:00", "pct": 46.95},
+        {"answer": "Warren", "end_date": "2019-05-05T00:00:00", "pct": 37.5},
+        {"answer": "Warren", "end_date": "2019-05-12T00:00:00", "pct": 43},
+        {"answer": "Warren", "end_date": "2019-05-19T00:00:00", "pct": 47.46},
+        {"answer": "Warren", "end_date": "2019-05-26T00:00:00", "pct": 42},
+        {"answer": "Warren", "end_date": "2019-06-02T00:00:00", "pct": 47.3},
+        {"answer": "Warren", "end_date": "2019-06-09T00:00:00", "pct": 42.06},
+        {
+          "answer": "Warren",
+          "end_date": "2019-06-16T00:00:00",
+          "pct": 39.714285714285715
+        },
+        {"answer": "Warren", "end_date": "2019-06-23T00:00:00", "pct": 42},
+        {"answer": "Warren", "end_date": "2019-06-30T00:00:00", "pct": 52.65},
+        {"answer": "Warren", "end_date": "2019-07-07T00:00:00", "pct": 49.5},
+        {"answer": "Warren", "end_date": "2019-07-14T00:00:00", "pct": 48.7},
+        {"answer": "Warren", "end_date": "2019-07-21T00:00:00", "pct": 44},
+        {
+          "answer": "Warren",
+          "end_date": "2019-07-28T00:00:00",
+          "pct": 42.339999999999996
+        },
+        {
+          "answer": "Warren",
+          "end_date": "2019-08-04T00:00:00",
+          "pct": 45.78333333333333
+        },
+        {
+          "answer": "Warren",
+          "end_date": "2019-08-11T00:00:00",
+          "pct": 44.166666666666664
+        },
+        {"answer": "Warren", "end_date": "2019-08-18T00:00:00", "pct": 42.6},
+        {"answer": "Warren", "end_date": "2019-08-25T00:00:00", "pct": 44.875},
+        {"answer": "Warren", "end_date": "2019-09-01T00:00:00", "pct": 49.1},
+        {
+          "answer": "Warren",
+          "end_date": "2019-09-08T00:00:00",
+          "pct": 48.666666666666664
+        },
+        {"answer": "Warren", "end_date": "2019-09-15T00:00:00", "pct": 46.5},
+        {"answer": "Warren", "end_date": "2019-09-22T00:00:00", "pct": 45.275},
+        {"answer": "Warren", "end_date": "2019-09-29T00:00:00", "pct": 44.5},
+        {
+          "answer": "Warren",
+          "end_date": "2019-10-06T00:00:00",
+          "pct": 46.48571428571428
+        },
+        {
+          "answer": "Warren",
+          "end_date": "2019-10-13T00:00:00",
+          "pct": 48.28888888888889
+        },
+        {
+          "answer": "Warren",
+          "end_date": "2019-10-20T00:00:00",
+          "pct": 48.214285714285715
+        },
+        {
+          "answer": "Warren",
+          "end_date": "2019-10-27T00:00:00",
+          "pct": 44.979375000000005
+        },
+        {
+          "answer": "Warren",
+          "end_date": "2019-11-03T00:00:00",
+          "pct": 48.05916666666667
+        },
+        {"answer": "Warren", "end_date": "2019-11-10T00:00:00", "pct": 47.35},
+        {"answer": "Warren", "end_date": "2019-11-17T00:00:00", "pct": 41.15},
+        {
+          "answer": "Warren",
+          "end_date": "2019-11-24T00:00:00",
+          "pct": 48.86666666666667
+        },
+        {
+          "answer": "Warren",
+          "end_date": "2019-12-01T00:00:00",
+          "pct": 48.099999999999994
+        },
+        {"answer": "Warren", "end_date": "2019-12-08T00:00:00", "pct": 42.35},
+        {"answer": "Warren", "end_date": "2019-12-15T00:00:00", "pct": 44.61},
+        {"answer": "Warren", "end_date": "2019-12-22T00:00:00", "pct": 42.18},
+        {"answer": "Warren", "end_date": "2019-12-29T00:00:00", "pct": 40},
+        {"answer": "Warren", "end_date": "2020-01-05T00:00:00", "pct": 44.95},
+        {"answer": "Warren", "end_date": "2020-01-12T00:00:00", "pct": 46.28},
+        {"answer": "Warren", "end_date": "2020-01-19T00:00:00", "pct": 47},
+        {
+          "answer": "Warren",
+          "end_date": "2020-01-26T00:00:00",
+          "pct": 43.99090909090909
+        },
+        {
+          "answer": "Warren",
+          "end_date": "2020-02-02T00:00:00",
+          "pct": 39.95454545454545
+        },
+        {"answer": "Warren", "end_date": "2020-02-09T00:00:00", "pct": 42.2},
+        {"answer": "Warren", "end_date": "2020-02-16T00:00:00", "pct": 48.2},
+        {"answer": "Warren", "end_date": "2020-02-23T00:00:00", "pct": 45.55},
+        {"answer": "Williamson", "end_date": "2019-03-24T00:00:00", "pct": 27},
+        {"answer": "Williamson", "end_date": "2019-04-07T00:00:00", "pct": 26},
+        {"answer": "Williamson", "end_date": "2019-05-05T00:00:00", "pct": 24},
+        {"answer": "Williamson", "end_date": "2019-06-02T00:00:00", "pct": 27},
+        {"answer": "Williamson", "end_date": "2019-06-30T00:00:00", "pct": 26},
+        {"answer": "Williamson", "end_date": "2019-07-28T00:00:00", "pct": 26},
+        {"answer": "Williamson", "end_date": "2019-08-18T00:00:00", "pct": 40},
+        {"answer": "Williamson", "end_date": "2019-08-25T00:00:00", "pct": 30},
+        {
+          "answer": "Winfrey",
+          "end_date": "2019-08-11T00:00:00",
+          "pct": 49.333333333333336
+        },
+        {"answer": "Yang", "end_date": "2019-03-24T00:00:00", "pct": 27},
+        {"answer": "Yang", "end_date": "2019-04-07T00:00:00", "pct": 25},
+        {"answer": "Yang", "end_date": "2019-05-05T00:00:00", "pct": 26},
+        {"answer": "Yang", "end_date": "2019-06-02T00:00:00", "pct": 26},
+        {"answer": "Yang", "end_date": "2019-06-30T00:00:00", "pct": 26},
+        {"answer": "Yang", "end_date": "2019-07-28T00:00:00", "pct": 27},
+        {"answer": "Yang", "end_date": "2019-08-25T00:00:00", "pct": 33},
+        {"answer": "Yang", "end_date": "2019-09-15T00:00:00", "pct": 53.8},
+        {"answer": "Yang", "end_date": "2019-09-22T00:00:00", "pct": 32},
+        {"answer": "Yang", "end_date": "2019-10-06T00:00:00", "pct": 31},
+        {
+          "answer": "Yang",
+          "end_date": "2019-12-01T00:00:00",
+          "pct": 47.650000000000006
+        },
+        {"answer": "Yang", "end_date": "2020-01-19T00:00:00", "pct": 49.5},
+        {"answer": "Yang", "end_date": "2020-02-02T00:00:00", "pct": 34},
+        {"answer": "Yang", "end_date": "2020-02-09T00:00:00", "pct": 43},
+        {"answer": "de Blasio", "end_date": "2019-06-09T00:00:00", "pct": 43},
+        {"answer": "de Blasio", "end_date": "2019-06-30T00:00:00", "pct": 25},
+        {"answer": "de Blasio", "end_date": "2019-07-28T00:00:00", "pct": 26},
+        {"answer": "de Blasio", "end_date": "2019-08-25T00:00:00", "pct": 32}
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-cf8d68aaf6104026edf707261744f710",
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "toString(datum[\"answer\"])",
+          "as": "answer"
+        },
+        {
+          "type": "formula",
+          "expr": "toDate(datum[\"end_date\"])",
+          "as": "end_date"
+        },
+        {
+          "type": "formula",
+          "expr": "if(datum.end_date < datetime(2019, 5, 1), 'before', 'after')",
+          "as": "debate_indicator"
+        },
+        {
+          "type": "filter",
+          "expr": "indexof([\"Biden\",\"Bloomberg\",\"Buttigieg\",\"Klobuchar\",\"Sanders\",\"Warren\",\"Trump\"], datum[\"answer\"]) !== -1"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "selector025",
+      "update": "vlSelectionResolve(\"selector025_store\", \"union\")"
+    },
+    {
+      "name": "selector024",
+      "update": "vlSelectionResolve(\"selector024_store\", \"union\")"
+    },
+    {
+      "name": "selector025_tuple",
+      "on": [
+        {
+          "events": [{"source": "scope", "type": "mouseover"}],
+          "update": "datum && item().mark.marktype !== 'group' ? {unit: \"\", fields: selector025_tuple_fields, values: [(item().isVoronoi ? datum.datum : datum)[\"end_date\"]]} : null",
+          "force": true
+        },
+        {"events": [{"source": "scope", "type": "dblclick"}], "update": "null"}
+      ]
+    },
+    {
+      "name": "selector025_tuple_fields",
+      "value": [{"field": "end_date", "channel": "x", "type": "E"}]
+    },
+    {
+      "name": "selector025_modify",
+      "on": [
+        {
+          "events": {"signal": "selector025_tuple"},
+          "update": "modify(\"selector025_store\", selector025_tuple, true)"
+        }
+      ]
+    },
+    {
+      "name": "selector024_end_date",
+      "on": [
+        {
+          "events": {"signal": "selector024_translate_delta"},
+          "update": "panLinear(selector024_translate_anchor.extent_x, -selector024_translate_delta.x / width)"
+        },
+        {
+          "events": {"signal": "selector024_zoom_delta"},
+          "update": "zoomLinear(domain(\"x\"), selector024_zoom_anchor.x, selector024_zoom_delta)"
+        },
+        {"events": [{"source": "scope", "type": "dblclick"}], "update": "null"}
+      ]
+    },
+    {
+      "name": "selector024_tuple",
+      "on": [
+        {
+          "events": [{"signal": "selector024_end_date"}],
+          "update": "selector024_end_date ? {unit: \"\", fields: selector024_tuple_fields, values: [selector024_end_date]} : null"
+        }
+      ]
+    },
+    {
+      "name": "selector024_tuple_fields",
+      "value": [{"field": "end_date", "channel": "x", "type": "R"}]
+    },
+    {
+      "name": "selector024_translate_anchor",
+      "value": {},
+      "on": [
+        {
+          "events": [{"source": "scope", "type": "mousedown"}],
+          "update": "{x: x(unit), y: y(unit), extent_x: domain(\"x\")}"
+        }
+      ]
+    },
+    {
+      "name": "selector024_translate_delta",
+      "value": {},
+      "on": [
+        {
+          "events": [
+            {
+              "source": "window",
+              "type": "mousemove",
+              "consume": true,
+              "between": [
+                {"source": "scope", "type": "mousedown"},
+                {"source": "window", "type": "mouseup"}
+              ]
+            }
+          ],
+          "update": "{x: selector024_translate_anchor.x - x(unit), y: selector024_translate_anchor.y - y(unit)}"
+        }
+      ]
+    },
+    {
+      "name": "selector024_zoom_anchor",
+      "on": [
+        {
+          "events": [{"source": "scope", "type": "wheel", "consume": true}],
+          "update": "{x: invert(\"x\", x(unit)), y: invert(\"y\", y(unit))}"
+        }
+      ]
+    },
+    {
+      "name": "selector024_zoom_delta",
+      "on": [
+        {
+          "events": [{"source": "scope", "type": "wheel", "consume": true}],
+          "force": true,
+          "update": "pow(1.001, event.deltaY * pow(16, event.deltaMode))"
+        }
+      ]
+    },
+    {
+      "name": "selector024_modify",
+      "on": [
+        {
+          "events": {"signal": "selector024_tuple"},
+          "update": "modify(\"selector024_store\", selector024_tuple, true)"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "pathgroup",
+      "type": "group",
+      "from": {
+        "facet": {
+          "name": "faceted_path_main",
+          "data": "data_0",
+          "groupby": ["answer"]
+        }
+      },
+      "encode": {
+        "update": {
+          "width": {"field": {"group": "width"}},
+          "height": {"field": {"group": "height"}}
+        }
+      },
+      "marks": [
+        {
+          "name": "marks",
+          "type": "line",
+          "clip": true,
+          "style": ["line"],
+          "sort": {"field": "datum[\"end_date\"]"},
+          "interactive": true,
+          "from": {"data": "faceted_path_main"},
+          "encode": {
+            "update": {
+              "stroke": {"scale": "color", "field": "answer"},
+              "opacity": [
+                {
+                  "test": "!(length(data(\"selector025_store\"))) || (vlSelectionTest(\"selector025_store\", datum))",
+                  "value": 1
+                },
+                {"value": 0.01}
+              ],
+              "tooltip": {
+                "signal": "{\"answer\": ''+datum[\"answer\"], \"pct\": format(datum[\"pct\"], \"\"), \"candidate_party\": ''+datum[\"candidate_party\"]}"
+              },
+              "x": {"scale": "x", "field": "end_date"},
+              "y": {"scale": "y", "field": "pct"},
+              "strokeWidth": {"value": 2.5},
+              "defined": {
+                "signal": "isValid(datum[\"end_date\"]) && isFinite(+datum[\"end_date\"]) && isValid(datum[\"pct\"]) && isFinite(+datum[\"pct\"])"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "time",
+      "domain": {"data": "data_0", "field": "end_date"},
+      "domainRaw": {"signal": "selector024[\"end_date\"]"},
+      "range": [0, {"signal": "width"}]
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": {"data": "data_0", "field": "pct"},
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "data_0", "field": "answer", "sort": true},
+      "range": "category"
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "gridScale": "y",
+      "grid": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "domain": false,
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "gridScale": "x",
+      "grid": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "domain": false,
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "title": "DATE",
+      "labelFlush": true,
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "grid": false,
+      "title": "Median Percenatge of Votes",
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    }
+  ],
+  "legends": [
+    {
+      "title": "Candidate Name",
+      "stroke": "color",
+      "gradientLength": {"signal": "clamp(height, 64, 200)"},
+      "symbolType": "stroke",
+      "encode": {"symbols": {"update": {"opacity": {"value": 1}}}}
+    }
+  ]
+}

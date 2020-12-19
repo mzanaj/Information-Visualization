@@ -1,0 +1,238 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>THE UPCOMING ELECTION SIMPLIFIED </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="resource/templated-transitive/assets/css/main.css" />
+    
+	<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+
+
+<nav>
+  <div> <i><b>SI 649, MZANAJ</b> </i></div>
+  
+</nav>
+
+<!--OVERHEAD INFORMATION, title-author-date-source data -->	
+<h1 style="text-align:center; font-size: 55px"> THE 2020 ELECTION FORECAST </h1>
+<h1 style="text-align:center; font-size: 30px"> Date: 2/25/2020</h1>
+<h1 style="text-align:center; font-size: 30px"> Author: Martin Zanaj</h1>
+<p  style="text-align:center; font-size:   30px"> Data Source: <a href="https://projects.fivethirtyeight.com/polls-page/president_polls.csv">President Polls</a> </p>
+
+
+<!-- THIS IS THE FIRST CHART -->			
+<div align="center" style="border:2px solid red">
+<p  style="text-align:left; font-size:   30px"><u>SO MANY POLLS, WHICH ONE TO TRUST?</u></p>
+
+<h4 align= "left">   A  <b>poll</b> is an attempt to represent the publics' opinion regarding a specific topic. In this case, our polls are representative of the political opinion that the citizens of the United States hold, for what it pertains the upcoming 2020 election.</h4> 
+
+<h4 align="left"> In a world where fake-news is on the constant rise, and the spread of mis-information is at reach of only a few keyboard strokes. It is imperative for the reader to understand and know, not only the results of the polls, but as well who is behind those same polls. </h4>
+
+<h4 align="left">  This is where the chart below comes into play. Starting from the left, we have the names of the pollsters (these are the companies that have done the polling). Next, in the middle we have the category (based on grade) to which each individual pollster belongs to. Finally, to the right 
+we have the number of polls associated with each pollster in its respective category.</h4>
+
+<h4 align="left"> At first it might not be that intuitive to read this chart, but please bear with me for, it does indeed provide some insights. Pollsters are given grades A through D. At first one might think that these grades for what it pertains pollster's reputation might be dependent on the factors such as the people behind and the amount of years that they	've been in business. Yet, 
+this finding might indeed be true, but the chart to the right allows us to find a further dependence. In general,the pollsters with the highest grades, are the ones that do the greatest number of polling. You heard that right, someone who has done, say 30, different polls is more likely to have a higher grade reputation than someone who has only done 10 or 15. </h4>
+
+<h4 align="left"><mark> Insights:</mark> This visualization invites the viewer to pay attention to the reputation of the pollster, but also puts them on the lookout, for a high reputation grade does not necessarily point to the pollster's reputation, but it could be due to the high number of polls that they have put forth. </h4>
+
+<h4 align ="left" > Hence, when looking at a poll with an A rating vs a poll with a B rating do not discard the results of polls with a B grade simply based on the grade reputation, given such discrepancy could be based on the number of polls.</h4>
+<h4 align="left"> <i> <font color="red"> "*There are indeed exceptions to this general finding." </font></i></h4>
+
+<div id="vis"></div>
+
+</div>
+
+<!-- ADD SOME WHITE SPACE -->
+<div align="center" style="border:1px solid white">
+<h3> </h3>
+</div>
+
+<div align="center" style="border:1px solid white">
+<h3> </h3>
+</div>
+
+
+<!-- THIS IS THE SECOND CHART  -->
+<div align="center" style="border:2px solid blue">
+<p style="text-align:left; font-size:   30px"><u>SO, WHAT ARE AMERICANS SAYING...</u></p>
+
+<h3>IN GENREAL?</h3>
+
+<h4 align="left"> The first and foremost information that is presented are the overall results; that is what will American's vote in terms of party. It is worth noting
+that in the Unites State of America there are a total of 3 different parties to choose from: Democratic, Republican, or Liberal.</h4>
+
+<h4 align="left">
+ <mark>Insights: </mark>
+At the moment the U.S. vote is split between 
+
+<font color="blue"> "Democrats (46%)" </font> and 
+<font color="orange"> "Republicans (44%)" </font>. Although, the majority of the votes go to either the  Republican or Democratic party, the
+<font color="red"> "Liberal  (5%)" </font> party does gain a meaningful 5% of the U.S forecasted vote. </h4>
+
+<h4 align="left">This is quite a tight race with very small margins of difference. It is important for both parties to truly take this race seriously given that, at least for the moment being, no obvious winner can be claimed just yet.</h4></h4>
+
+<div id="vis2"></div>
+
+<hr>
+<h3>BY REGION?</h3>
+<h4 align="left"> We were able to see in the previous visualization that race for the presidential candidacy is going to be quite a close race, and as a result both parties must make appropriate 
+decision and choices that will allow them to win the hearts of the indecisive ones. What are these choices, and what do they consist of? Well, at first is important to have an overall 
+idea of what each specific region of the United States  is expected to vote.</h4>
+
+<h4 align="left"> In the below visualization, we represent the percentage of the different votes for party according to the 4 distinct regions of the United States. Such regions being
+West, Midwest, South, and Northeast. For some polls we have there was no region annotated, we have still left these results in the visualization under the option "no location." 
+</h4>
+
+<h4 align="left">  <mark>Insights: </mark>
+from this visualization we are able to note that <font color="blue"> Democrats</font>  are most likely to win in the <u>West</u>, the <font color="orange"> Republicans</font>  are most likely to win in the <u>South</u>;
+ Finally, the true  battle for the presidency will be "fought" in states belonging to the <u><b>Midwest</b></u> and the <u>Northeast</u> region of the United Sates. </h4>
+<div id="vis3"></div>
+
+<hr>
+<h3>BY INDIVIDUAL STATE?</h3>
+<h4 align="left"> Until now we have been able to see the general forecasted results for the presidential race, furthermore we were able to divide the U.S. in different regions and were able to pick up on different
+trends among different regions. Now, we dive deeper into the individuals states given winning these ones is what will allow each candidate party to get closer to presidency. In this section, we dissect the states that haven't made their mind yet, and are likely to go with either party. We call these states "swing states.
+Finding out the "swing state" allows each respective party to plan their rally's and public events in places were their words will matter and have an effect. For it doesn't make sense (politically speaking) to go in a state where the majority of the population has made their mind up. Hence, finding "swing states" is like finding "water in the desert"- very precious. </h4>
+
+<h4 align="left"> <u>NORTHEAST STATES</u></h4>
+<h4 align="left">States likely to be won by  <font color="blue"> Democrats:</font> Connecticut,Maine, Maine CD-1,Massachusetts, New Jersey, New York</h4>
+<h4 align="left">States likely to be won by  <font color="orange"> Republicans:</font> N/A</h4>
+<h4 align="left"> <mark>Swing States: </mark> Maine CD-2, New-Hampshire, Pennsylvania</h4>
+<div id="vis4"></div>
+
+<h4 align="left"> <u>MIDWEST STATES</u></h4>
+<h4 align="left">States likely to be won by  <font color="blue"> Democrats:</font> Michigan, Minnesota, </h4>
+<h4 align="left">States likely to be won by  <font color="orange"> Republicans:</font> Kansas, Missouri, North Dakota</h4>
+<h4 align="left"> <mark>Swing States: </mark>  Iowa,Ohio, Wisconsin</h4>
+<div id="vis5"></div>
+
+<h4 align = "left"><u>SOUTH STATES</u></h4>
+<h4 align="left">States likely to be won by  <font color="blue"> Democrats:</font>  Delaware,North Carolina, Virginia </h4>
+<h4 align="left">States likely to be won by  <font color="orange"> Republicans:</font> Alabama,Kentucky, Oklahoma, South Carolina, Tennessee, West Virginia </h4>
+<h4 align="left"> <mark>Swing States: </mark> Florida,Georgia, Texas </h4>
+<div id="vis6"></div>
+
+
+<h4 align="left"><u>WEST STATES</u></h4>
+<h4 align="left">States likely to be won by  <font color="blue"> Democrats:</font> California,Colorado,Nevada, New Mexico, Washington</h4>
+<h4 align="left">States likely to be won by  <font color="orange"> Republicans:</font> Alaska, Utah,</h4>
+<h4 align="left"> <mark>Swing States: </mark>  Arizona,Montana </h4>
+
+<div id="vis7"></div>
+</div>
+
+<!-- ADD SOME WHITE SPACE -->
+<div align="center" style="border:1px solid white">
+<h3> </h3>
+</div>
+
+<div align="center" style="border:1px solid white">
+<h3> </h3>
+</div>
+
+<div align="center" style="border:2px solid green">
+
+<p style="text-align:left; font-size:   30px"><u>WHO ARE THE MOST LIKELY CANDIDATES TO THE PRESIDENCY?</u></p>
+
+<h3 style="text-align:center"> GENERAL CANDIDATES PERFORMANCE </h3>
+<h4 
+style="text-align:left">After checking out the different, general and specific, election results by most likely party. Now, we focus on the actual candidates that are most likely to win the presidency. 
+In the chart below, we are able to see the top 7 candidates that are most likely to win the presidency. </h4>
+
+<h4 style="text-align:left"> <mark> Insights:</mark> In this first chart we are able to see the most likely out of the many candidates.</h4>
+<div id="vis8"></div>
+
+<hr>
+
+<h3 style="text-align:center">SPECIFIC CANDIDATES PERFORMANCE</h3>
+<h4 
+style="text-align:left">Now, we have pinned the many candidates down to a small list. Yet, we can take this a step further and look at most likely candidates out of the samll list.
+From the chart below we are able to see the performance of each candidate before and after a debate. We are able to note that since the debate there have been a few changes into the trends.
+Such changes can be viewed by either following the trend of the line, or looking at weather the overall median as lowered, remained the same, or increased.
+ </h4>
+<h4 style="text-align:left"> <mark> Insights:</mark> The main candidates to look for in the <font color="blue"> Democrats:</font> party: are Bernie Sanders, Mike Bloomberg, and Amy Klobuchar. 
+Whereas the main player in the <font color="orange"> Republican:</font> party is the current sitting president Donald Trump. </h4>
+<div id="vis9"></div>
+
+</div>
+
+<!-- ADD SOME WHITE SPACE -->
+<div align="center" style="border:1px solid white">
+<h3> </h3>
+</div>
+
+<div align="center" style="border:1px solid white">
+<h3> </h3>
+</div>
+
+
+<div align="center" style="border:2px solid black">
+
+<p style="text-align:left; font-size:   30px"><u>CONCLUSION</u></p>
+
+<h3>So, what did we learn from this article?</h3> 
+
+<h4 align = "left">
+<mark ><u>First</u></mark>, we went over the polls and found out that a higher grade score doesn't necessarily 
+point to the pollster's reputation, but it could be due to the high number of polls that they have put forth.
+
+
+
+<mark><u>Second</u></mark>, we were able to look at the results of the polls. It looks like this election will be a close one between Democrats and Republicans.
+We were able to see the expected vote for each region of the USA. We went even further, to identify those "swing states" that could indeed make a difference and 
+make of either party the winner or loser.  
+
+<mark><u>Third</u></mark>, we were able to see which candidate is the most likely to win the presidency. In the Democratic party, we have are Bernie Sanders, Mike Bloomberg, and Amy Klobuchar. 
+Whereas, in the Republican party the current sitting president, Donald Trump, is the most likely to regain a second term.
+
+ </h4>
+
+</div>
+
+<!-- ADD SOME WHITE SPACE -->
+<div align="center" style="border:1px solid white">
+<h3>
+
+ </h3>
+</div>
+
+<div align="center" style="border:1px solid white">
+<h3> 
+
+</h3>
+</div>
+
+
+<!--THE SCRIPTS-->
+<script type="text/javascript">
+    let jsonSpec="resource/one.json";
+	let jsonSpec2="resource/two.json";
+	let jsonSpec3="resource/three.json";
+	let jsonSpec4="resource/four.json";
+	let jsonSpec5="resource/five.json";
+	let jsonSpec6="resource/six.json";
+	let jsonSpec7="resource/seven.json";
+	let jsonSpec8="resource/eight.json";
+	let jsonSpec9="resource/nine.json";
+	
+    vegaEmbed('#vis', jsonSpec,{}).then(function(result) {}).catch(console.error);
+	vegaEmbed('#vis2', jsonSpec2,{}).then(function(result) {}).catch(console.error);
+	vegaEmbed('#vis3', jsonSpec3,{}).then(function(result) {}).catch(console.error);
+	vegaEmbed('#vis4', jsonSpec4,{}).then(function(result) {}).catch(console.error);
+	vegaEmbed('#vis5', jsonSpec5,{}).then(function(result) {}).catch(console.error);
+	vegaEmbed('#vis6', jsonSpec6,{}).then(function(result) {}).catch(console.error);
+	vegaEmbed('#vis7', jsonSpec7,{}).then(function(result) {}).catch(console.error);
+	vegaEmbed('#vis8', jsonSpec8,{}).then(function(result) {}).catch(console.error);
+	vegaEmbed('#vis9', jsonSpec9,{}).then(function(result) {}).catch(console.error);
+	
+</script>
+</body>
+</html>
+
